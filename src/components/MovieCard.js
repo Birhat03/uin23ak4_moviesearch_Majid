@@ -4,6 +4,7 @@ export default function MovieCard({title, img, year, genre, director, actors, li
     return(
         <article className="movie-card">
             <img src={img} alt={title} onError={(e) => {
+                //bytter bilde med placeholder onError
      e.target.src = 'https://place-hold.it/300x500&text=(FilmPoster)&fontsize=16' // kode hentet fra: https://stackoverflow.com/questions/36418806/react-use-img-onerror
   }}/>
             <h3>{title}</h3>
