@@ -12,7 +12,7 @@ export default function Search({setSearch, getMovies}){
         }
 
         else{
-            setSearch("James Bond")
+            setSearch(event.target.value)
         }
     }
     return (

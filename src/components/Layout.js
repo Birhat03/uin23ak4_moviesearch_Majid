@@ -4,7 +4,7 @@ export default function Layout(){
     return (
         <div id="container">
           <header>
-            <Link to="/" onClick={() => window.location.reload()}>
+            <Link to="/">
                 <h1 className="header">Filmsøk</h1>
             </Link>
             
